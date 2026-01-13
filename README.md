@@ -1,39 +1,19 @@
-Data Extraction
+#retail_orders_etl
+A complete end-to-end data engineering project that extracts retail order data from Kaggle, transforms it using Python, and loads it into SQL Server for advanced business intelligence analysis.
 
-Retrieved the dataset from Kaggle using the Kaggle API.
+#project overview
+The goal of this project is to build a robust ETL pipeline to handle messy retail data. By automating the extraction and cleaning process, the project provides a structured SQL environment to query key performance indicators (KPIs) like profit margins and sales trends.
 
-Data Transformation (Python & Pandas)
 
-Handled missing values and duplicates.
+#Tech stack
+  Language: Python 3.x
 
-Standardized date and categorical columns.
+  Libraries: Pandas, SQLAlchemy, PyODBC
 
-Created new calculated fields for better insights (e.g., revenue, profit margin, order categories).
+  Database: Microsoft SQL Server (T-SQL)
 
-Data Loading (ETL)
+  Source: Kaggle API
 
-Loaded the transformed dataset into SQL Server using SQLAlchemy + PyODBC.
+  Environment: Jupyter Notebook 
 
-Structured the data into relational tables for efficient querying.
-
-Analysis (SQL Server)
-
-Ran SQL queries to uncover business insights, such as:
-
-Top-selling products and categories
-
-Sales trends over time
-
-Regional performance comparisons
-
-🛠️ Tech Stack
-
-Python (Pandas, SQLAlchemy, Jupyter Notebook)
-
-SQL Server (T-SQL for analysis)
-
-Kaggle API (dataset extraction)
-
-📊 Dataset
-
-Retail Orders Dataset (from Kaggle) – includes order details, customer info, and sales records.
+  
