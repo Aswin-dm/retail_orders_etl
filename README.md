@@ -10,6 +10,8 @@ The goal of this project is to build a robust ETL pipeline to handle messy retai
 
 
 #Tech stack
+
+
   Language: Python 3.x
 
   Libraries: Pandas, SQLAlchemy, PyODBC
