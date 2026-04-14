@@ -90,6 +90,4 @@ Profitability: Which category yields the highest margin?
 
 Seasonality: Which months show the highest growth in retail orders?
 
-Author
-Aswin DM GitHub
   
